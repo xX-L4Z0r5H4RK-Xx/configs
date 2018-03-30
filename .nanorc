@@ -1,1 +1,44 @@
-
+set backup
+set linenumbers
+set const
+set mouse
+set tabsize 3
+set tempfile
+set morespace
+set quotestr ">"
+set regexp
+set nonewlines
+set softwrap
+set suspend
+set spell "aspell -x -c"
+unset boldtext
+bind ^G lastline main
+bind ^H firstline main
+bind ^W nextword main
+bind ^E prevword main
+bind ^Q exit all
+bind ^F whereis all
+bind ^V mark main
+bind ^R replace main
+bind ^Y cut main
+bind ^P copytext main
+bind ^O uncut main
+bind ^T insert main
+bind ^S speller main
+bind ^N up main
+bind ^B down main
+bind ^D delete main
+bind ^X undo main
+bind ^U redo main
+bind ^J comment main
+include /usr/share/nano/yaml.nanorc
+include /usr/share/nano/markdown.nanorc
+include /usr/share/nano/arduino.nanorc
+include /usr/share/nano/sh.nanorc
+include /usr/share/nano/tex.nanorc
+include /usr/share/nano/c.nanorc
+include /usr/share/nano/html.nanorc
+include /usr/share/nano/css.nanorc
+include /usr/share/nano/mutt.nanorc
+include /usr/share/nano/rcfiles.nanorc
+include /usr/share/nano/urls.nanorc
